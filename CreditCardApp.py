@@ -65,3 +65,4 @@ else:
     msg = 'This customer is predicted to be: **Defaultee**'
 
 prediction_state.markdown(msg)
+
