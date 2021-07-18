@@ -1,6 +1,3 @@
-# Slackers-Capstone
-UD capstone project for cohort 2021, for data science certification
-
 # About
 
 This repo contains the code UD capstone project for cohort 2021, for data science certification
