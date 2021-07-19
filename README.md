@@ -2,7 +2,7 @@
 
 This repo contains the code UD capstone project for cohort 2021, for data science certification
 
-- `Capstone-Exploratory-assignment_5-SaveModel-WithXGBoost`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence
+- `Capstone-Exploratory-assignment_6_Clean_Final`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence
 - `CreditCardApp.py`: machine learning web app via Streamlit
 
 ## Local Setup
