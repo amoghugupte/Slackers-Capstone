@@ -34,3 +34,6 @@ Steps to get the streamlit app running (make sure to use the Terminal and the vi
 4. Run the app locally (Local URL: http://localhost:8501) using terminal: `streamlit run CreditCardApp.py` 
 5. Stop the app by using ctrl + C or closing the terminal
 6. Deploy the app to the cloud for public access via services such as streamlit share, heroku, aws
+
+## Final presentation
+Credit Default detector_v6.pptx
