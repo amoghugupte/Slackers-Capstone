@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# About
 
-You can use the [editor on GitHub](https://github.com/amoghugupte/Slackers-Capstone/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repo contains the code UD capstone project for cohort 2021, for data science certification
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- `Capstone-Exploratory-assignment_5-SaveModel-WithXGBoost`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence
+- `CreditCardApp.py`: machine learning web app via Streamlit
 
-### Markdown
+## Local Setup
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Python 3 required, see tutorial to setup Python 3: https://bit.ly/2uX6wAX
 
-```markdown
-Syntax highlighted code block
+Clone the repo, go to the repo folder in Terminal, setup the virtual environment and install the required packages as follows:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```shell
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Run `$ jupyter lab` or `$ code .` (if use VSCode) to go over the notebooks.
 
-### Jekyll Themes
+## Kaggle Data
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/amoghugupte/Slackers-Capstone/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You will need data from kaggle
+[https://www.kaggle.com/mishra5001/credit-card](https://www.kaggle.com/mishra5001/credit-card)
 
-### Support or Contact
+## Machine Learning Web App
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Steps to get the streamlit app running (make sure to use the Terminal and the virtual environment is activated):
+
+1. Get the data and model files ready
+2. Create a notebook to do analysis and prediction
+3. Create an app python file based on the notebook, such as `CreditCardApp.py`
+4. Run the app locally (Local URL: http://localhost:8501) using terminal: `streamlit run CreditCardApp.py` 
+5. Stop the app by using ctrl + C or closing the terminal
+6. Deploy the app to the cloud for public access via services such as streamlit share, heroku, aws
